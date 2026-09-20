@@ -1,16 +1,34 @@
 # Design
 
+Use this file to prevent style drift and keep UI decisions consistent across coding sessions.
+
 ## Design System
-<!-- Typography, color, spacing, motion principles -->
+<!-- Example: Clean, minimal, high-contrast interface optimized for readability. -->
+<!-- Typography, color, spacing, motion principles. -->
 
 ## UI Tokens
-<!-- Fonts, palette, border radius, shadows, breakpoints -->
+<!-- Example:
+- Font: system sans-serif
+- Palette: neutral base with one accent color
+- Radius: 8px
+- Breakpoints: mobile < 640px, desktop >= 1024px
+-->
+<!-- Fonts, palette, border radius, shadows, breakpoints. -->
 
 ## Component Rules
-<!-- Composition, states, accessibility, interaction patterns -->
+<!-- Example:
+- Use plain HTML/CSS when possible; avoid framework-specific components unless justified.
+- Buttons must have visible hover and focus states.
+-->
+<!-- Composition, states, accessibility, interaction patterns. -->
 
 ## Copy & Tone
-<!-- Voice, terminology, error message style -->
+<!-- Example: Direct, minimal, no marketing fluff. Error messages should say what happened and what to do next. -->
+<!-- Voice, terminology, error message style. -->
 
 ## Reference
-<!-- Links to mocks, Figma, screenshots, or examples -->
+<!-- Example:
+- [Figma file](https://figma.com/...)
+- Screenshot: docs/references/home-light.png
+-->
+<!-- Links to mocks, Figma, screenshots, or examples. -->

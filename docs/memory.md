@@ -1,16 +1,34 @@
 # Memory
 
+Use this file to preserve context across sessions. When you return to the project later, or open a fresh terminal, the agent reads this and knows where you left off.
+
 ## Current State
-<!-- Where the project stands right now -->
+<!-- Example: Docs scaffold is complete; waiting for user to define product requirements. -->
+<!-- Where the project stands right now. -->
 
 ## What Worked
-<!-- Techniques, libraries, prompts, workflows -->
+<!-- Example:
+- Starting with docs before code reduced agent drift.
+- Explicit `.cursorrules` kept output aligned.
+-->
+<!-- Techniques, libraries, prompts, workflows worth repeating. -->
 
 ## What Broke
-<!-- Bugs, dead ends, wrong assumptions -->
+<!-- Example:
+- Agent added `moment` without asking; avoid time libraries unless requested.
+- Ambiguous task descriptions caused off-scope changes.
+-->
+<!-- Bugs, dead ends, wrong assumptions, and anti-patterns. -->
 
 ## Session Notes
-<!-- Date-stamped notes from coding sessions -->
+<!-- Example:
+- 2026-09-20: Initialized template and pushed to GitHub.
+-->
+<!-- Date-stamped notes from coding sessions. -->
 
 ## Open Questions
-<!-- Unresolved decisions or unknowns -->
+<!-- Example:
+- Should we add a CLI bootstrap script in v1.1?
+- Which stack should this template target by default?
+-->
+<!-- Unresolved decisions or unknowns. -->
