@@ -2,6 +2,8 @@
 
 Use this file to preserve context across sessions. When you return to the project later, or open a fresh terminal, the agent reads this and knows where you left off.
 
+<!-- Keep this file under ~150 lines. Roll older Session Notes into one short dated summary line. -->
+
 ## Current State
 <!-- Example: Docs scaffold is complete; waiting for user to define product requirements. -->
 <!-- Where the project stands right now. -->

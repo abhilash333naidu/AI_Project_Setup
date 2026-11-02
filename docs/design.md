@@ -1,5 +1,7 @@
 # Design
 
+Status: draft <!-- Change to 'ready' once filled in. Agents must not code while any doc is draft. -->
+
 Use this file to prevent style drift and keep UI decisions consistent across coding sessions.
 
 ## Design System

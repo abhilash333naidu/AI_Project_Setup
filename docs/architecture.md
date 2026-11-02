@@ -1,5 +1,7 @@
 # Architecture
 
+Status: draft <!-- Change to 'ready' once filled in. Agents must not code while any doc is draft. -->
+
 Use this file to lock down the big decisions before coding starts. Agents will reference this to avoid introducing conflicting patterns or packages.
 
 ## Overview

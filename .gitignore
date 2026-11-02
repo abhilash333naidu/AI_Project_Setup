@@ -3,39 +3,32 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# Node
+# Node (lockfiles are intentionally NOT ignored; commit them)
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
+.next/
+.nuxt/
+.turbo/
+.cache/
 
-# Env
+# Env (keep example files tracked)
 .env
 .env.local
 .env.*.local
 .envrc
+!.env.example
 
 # Editor / OS
 .idea/
@@ -46,8 +39,9 @@ pnpm-lock.yaml
 .DS_Store
 Thumbs.db
 
-# Build output
+# Build / test output
 dist/
 build/
 out/
+coverage/
 *.log

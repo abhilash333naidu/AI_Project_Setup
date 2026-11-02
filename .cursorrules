@@ -1,7 +1,3 @@
-# Cursor / Claude Agent Rules
+# Cursor Rules
 
-Before writing any code, always read the files in the `docs/` folder to align with the active architectural constraints, task list, and current memory state.
-
-Whenever a coding task is completed, update `docs/tasks.md` with a checkmark and document technical lessons learned or project state changes in `docs/memory.md`.
-
-Do not invent features, add dependencies, or change stack decisions outside `docs/` without explicit user approval.
+Read and follow `AGENTS.md` in the project root. It is the single source of truth for agent behavior.

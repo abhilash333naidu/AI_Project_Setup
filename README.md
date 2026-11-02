@@ -21,7 +21,9 @@ AI coding agents work best when they have a clear blueprint. This template separ
   - `design.md`: UI/UX design tokens and decisions
   - `tasks.md`: executable task checklist
   - `memory.md`: lessons learned and session memory
-- `.cursorrules`: forces your AI agent to read and update `docs/`
+- `AGENTS.md`: canonical agent instructions (read `docs/` first, verify before ticking tasks, stop-and-ask gates). Read natively by Cursor, OpenCode, Codex, Kilo and others; Claude Code loads it via `CLAUDE.md`
+- `CLAUDE.md`: one-line import of `AGENTS.md` for Claude Code
+- `.cursorrules`: legacy Cursor pointer to `AGENTS.md`
 - `.github/ISSUE_TEMPLATE`: standard feedback issue template
 - `.gitignore`: sensible defaults for common stacks
 - `LICENSE`: MIT license
@@ -52,22 +54,27 @@ sequenceDiagram
     Agent->>Docs: Update tasks.md and memory.md
     Agent-->>Dev: Summary and open questions
 ```
+
 Your `docs/` folder is the source of intent. The agent reads it before writing code, so scope, architecture, and rules stay consistent across sessions.
+
+Every doc starts with `Status: draft`. Agents refuse to write code until you flip each to `ready`.
+
 ## Quick start
 
-1. Click **Use this template** on GitHub, or clone from the terminal:
+1. Click **Use this template** on GitHub, or scaffold from the terminal (works on Windows, macOS, Linux):
 
 ```bash
-git clone https://github.com/abhilash333naidu/AI_Project_Setup.git my-ai-project
+npx degit abhilash333naidu/AI_Project_Setup my-ai-project
 cd my-ai-project
-rm -rf .git && git init
+git init
 ```
 
-The `rm -rf .git` step removes the template's git history so your project starts fresh.
+`degit` copies the files without the template's git history. No `rm -rf .git` needed.
 
 2. Edit each file in `docs/` for your project.
-3. Open the project in Cursor, Claude Code, or your preferred agent host.
-4. Start coding. The agent reads `docs/` first and keeps `tasks.md` and `memory.md` current.
+3. Set `Status: ready` at the top of `prd.md`, `architecture.md`, `design.md` and `rules.md` once filled.
+4. Open the project in Cursor, Claude Code, or your preferred agent host.
+5. Start coding. The agent reads `AGENTS.md` and `docs/` first, verifies each task before ticking it, and keeps `tasks.md` and `memory.md` current.
 
 ## Download ZIP
 

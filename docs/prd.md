@@ -1,5 +1,7 @@
 # Product Requirements
 
+Status: draft <!-- Change to 'ready' once filled in. Agents must not code while any doc is draft. -->
+
 Use this file to define what you are building and what success looks like. Keep it short and concrete.
 
 ## Problem
