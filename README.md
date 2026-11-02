@@ -21,7 +21,6 @@ AI coding agents work best when they have a clear blueprint. This template separ
   - `memory.md`: lessons learned and session memory
 - `.cursorrules`: forces your AI agent to read and update `docs/`
 - `.github/ISSUE_TEMPLATE`: standard feedback issue template
-- `AI_Project_Setup_template.zip`: zip of the template
 - `.gitignore`: sensible defaults for common stacks
 - `LICENSE`: MIT license
 
@@ -43,7 +42,7 @@ The `rm -rf .git` step removes the template's git history so your project starts
 
 ## Download ZIP
 
-Grab the ZIP from the repo root (`AI_Project_Setup_template.zip`), or from [Releases](https://github.com/abhilash333naidu/AI_Project_Setup/releases) if a release exists.
+Download `AI_Project_Setup_template.zip` from the [v1.0.0 release](https://github.com/abhilash333naidu/AI_Project_Setup/releases/tag/v1.0.0), or click **Use this template** above.
 
 ## Contributing
 
