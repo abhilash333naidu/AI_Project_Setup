@@ -24,6 +24,7 @@ AI coding agents work best when they have a clear blueprint. This template separ
 - `AGENTS.md`: canonical agent instructions (read `docs/` first, verify before ticking tasks, stop-and-ask gates). Read natively by Cursor, OpenCode, Codex, Kilo and others; Claude Code loads it via `CLAUDE.md`
 - `CLAUDE.md`: one-line import of `AGENTS.md` for Claude Code
 - `.cursorrules`: legacy Cursor pointer to `AGENTS.md`
+- `examples/tinytodo/`: a fully filled-in `docs/` set showing what good looks like
 - `.github/ISSUE_TEMPLATE`: standard feedback issue template
 - `.gitignore`: sensible defaults for common stacks
 - `LICENSE`: MIT license
@@ -78,7 +79,7 @@ git init
 
 ## Download ZIP
 
-Download `AI_Project_Setup_template.zip` from the [v1.0.0 release](https://github.com/abhilash333naidu/AI_Project_Setup/releases/tag/v1.0.0), or click **Use this template** above.
+Download `AI_Project_Setup_template.zip` from the [v1.1.0 release](https://github.com/abhilash333naidu/AI_Project_Setup/releases/tag/v1.1.0), or click **Use this template** above.
 
 ## Contributing
 
