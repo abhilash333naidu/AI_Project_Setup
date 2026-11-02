@@ -2,7 +2,7 @@
   <img src="assets/brand-mark.svg" alt="AI Project Setup logo" width="96">
 </p>
 
-# AI Agent–Driven Development Setup Template
+# AI Project Setup
 
 <p align="center">
   <img src="assets/hero-banner.png" alt="AI Project Setup: documentation-first framework for AI coding agents" width="100%">
@@ -72,7 +72,7 @@ sequenceDiagram
 
 Your `docs/` folder is the source of intent. The agent reads it before writing code, so scope, architecture, and rules stay consistent across sessions.
 
-Every doc starts with `Status: draft`. Agents are instructed not to write code until you flip each to `ready`. The template gives agents this rule in writing; it does not enforce it with tooling.
+Every core doc (`prd.md`, `architecture.md`, `design.md`, `rules.md`) starts with `Status: draft`. Agents are instructed not to write code until you flip each to `ready`. The template gives agents this rule in writing; it does not enforce it with tooling.
 
 ## Quick start
 
