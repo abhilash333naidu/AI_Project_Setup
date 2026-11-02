@@ -102,6 +102,8 @@ Open an issue using the feedback template. Useful feedback includes:
 - Which docs file was unclear
 - What automation would have helped
 
+Pull requests are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) first. Release history is in [CHANGELOG.md](CHANGELOG.md). To report a security issue, follow [SECURITY.md](SECURITY.md) and do not open a public issue.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
