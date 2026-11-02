@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="850" viewBox="0 0 1440 850" role="img" aria-labelledby="title desc">
+<title id="title">AI Project Setup conceptual architecture</title><desc id="desc">A conceptual three-layer model: project definition documents, agent instructions and governance guidance, and execution with tasks, verification and project memory. External agent tools and Git provide the runtime environment. The diagram distinguishes written guidance from automated enforcement.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071426"/><stop offset="1" stop-color="#0B2038"/></linearGradient>
+ <linearGradient id="l1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#164F91"/><stop offset="1" stop-color="#12315C"/></linearGradient>
+ <linearGradient id="l2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#087F86"/><stop offset="1" stop-color="#124C5A"/></linearGradient>
+ <linearGradient id="l3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5644A7"/><stop offset="1" stop-color="#302B68"/></linearGradient>
+ <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#72BCEB"/></marker>
+ <style>.h{font:700 29px Inter,Segoe UI,Arial,sans-serif;fill:#F3F8FF}.sub{font:400 17px Inter,Segoe UI,Arial,sans-serif;fill:#B7CBE0}.label{font:700 14px Inter,Segoe UI,Arial,sans-serif;letter-spacing:1.6px;fill:#C5E7FF}.cardh{font:700 21px Inter,Segoe UI,Arial,sans-serif;fill:#F7FBFF}.body{font:400 17px Inter,Segoe UI,Arial,sans-serif;fill:#D6E5F4}.muted{font:400 14px Inter,Segoe UI,Arial,sans-serif;fill:#AFC4D8}.small{font:600 13px Inter,Segoe UI,Arial,sans-serif;fill:#BCE4F9}</style>
+</defs>
+<rect width="1440" height="850" rx="28" fill="url(#bg)"/>
+<text x="76" y="76" class="label">CONCEPTUAL FRAMEWORK ARCHITECTURE</text><text x="76" y="122" class="h">Project knowledge → agent guidance → evidenced work</text><text x="76" y="155" class="sub">The repository provides a documented operating model; automation and enforcement require supporting tools.</text>
+<!-- left vertical labels -->
+<g>
+ <rect x="76" y="205" width="210" height="158" rx="18" fill="#0D223A" stroke="#305579" stroke-width="1.5"/>
+ <text x="100" y="247" class="label">LAYER 01</text><text x="100" y="282" class="cardh">Define</text><text x="100" y="315" class="muted">What to build</text>
+ <rect x="76" y="390" width="210" height="178" rx="18" fill="#0D223A" stroke="#238D91" stroke-width="1.5"/>
+ <text x="100" y="432" class="label">LAYER 02</text><text x="100" y="467" class="cardh">Govern</text><text x="100" y="500" class="muted">How agents should</text><text x="100" y="522" class="muted">work within the project</text>
+ <rect x="76" y="595" width="210" height="158" rx="18" fill="#0D223A" stroke="#7365C9" stroke-width="1.5"/>
+ <text x="100" y="637" class="label">LAYER 03</text><text x="100" y="672" class="cardh">Deliver</text><text x="100" y="705" class="muted">What was done</text>
+</g>
+<!-- layer 1 -->
+<g>
+ <rect x="320" y="205" width="1044" height="158" rx="18" fill="url(#l1)" stroke="#438CD5" stroke-width="2"/>
+ <rect x="348" y="236" width="292" height="96" rx="12" fill="#0B2545" stroke="#4B93D8"/><text x="372" y="273" class="cardh">PRD</text><text x="372" y="303" class="body">Problem · users · outcomes</text>
+ <rect x="672" y="236" width="292" height="96" rx="12" fill="#0B2545" stroke="#4B93D8"/><text x="696" y="273" class="cardh">Architecture + design</text><text x="696" y="303" class="body">Structure · interfaces · UX</text>
+ <rect x="996" y="236" width="340" height="96" rx="12" fill="#0B2545" stroke="#4B93D8"/><text x="1020" y="273" class="cardh">Engineering rules</text><text x="1020" y="303" class="body">Standards · constraints · policy</text>
+</g>
+<!-- layer 2 -->
+<g>
+ <rect x="320" y="390" width="1044" height="178" rx="18" fill="url(#l2)" stroke="#28B7B1" stroke-width="2"/>
+ <rect x="348" y="423" width="292" height="112" rx="12" fill="#0B303B" stroke="#34C7BE"/><text x="372" y="461" class="cardh">Agent entry points</text><text x="372" y="492" class="body">AGENTS.md · host adapters</text><text x="372" y="516" class="muted">Shared operating instructions</text>
+ <rect x="672" y="423" width="292" height="112" rx="12" fill="#0B303B" stroke="#34C7BE"/><text x="696" y="461" class="cardh">Governance guidance</text><text x="696" y="492" class="body">Readiness · scope · approvals</text><text x="696" y="516" class="muted">Policies and human decisions</text>
+ <rect x="996" y="423" width="340" height="112" rx="12" fill="#0B303B" stroke="#34C7BE"/><text x="1020" y="461" class="cardh">Control boundaries</text><text x="1020" y="492" class="body">Risk · escalation · permissions</text><text x="1020" y="516" class="muted">Enforcement depends on tooling</text>
+</g>
+<!-- layer 3 -->
+<g>
+ <rect x="320" y="595" width="1044" height="158" rx="18" fill="url(#l3)" stroke="#927FEA" stroke-width="2"/>
+ <rect x="348" y="626" width="292" height="96" rx="12" fill="#211F4A" stroke="#9A8AE9"/><text x="372" y="663" class="cardh">Task register</text><text x="372" y="693" class="body">Plan · dependencies · status</text>
+ <rect x="672" y="626" width="292" height="96" rx="12" fill="#211F4A" stroke="#9A8AE9"/><text x="696" y="663" class="cardh">Verification evidence</text><text x="696" y="693" class="body">Checks · results · review</text>
+ <rect x="996" y="626" width="340" height="96" rx="12" fill="#211F4A" stroke="#9A8AE9"/><text x="1020" y="663" class="cardh">Project memory</text><text x="1020" y="693" class="body">State · lessons · open questions</text>
+</g>
+<g fill="none" stroke="#72BCEB" stroke-width="2.5" marker-end="url(#arr)"><path d="M842 364V386"/><path d="M842 569V591"/><path d="M1368 287H1390V675H1368" stroke-dasharray="6 7"/></g>
+<!-- footer -->
+<rect x="320" y="780" width="1044" height="42" rx="12" fill="#0B1B30" stroke="#335574"/><text x="842" y="807" text-anchor="middle" class="small">External runtime: AI coding agent · developer/toolchain · Git and GitHub · optional validators and CI</text>
+</svg>

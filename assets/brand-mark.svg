@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">AI Project Setup brand mark</title>
+  <desc id="desc">Three structured document layers converge into a verified engineering control symbol.</desc>
+  <defs>
+    <linearGradient id="a" x1="20" y1="20" x2="140" y2="140" gradientUnits="userSpaceOnUse"><stop stop-color="#48D7FF"/><stop offset="1" stop-color="#3978FF"/></linearGradient>
+    <linearGradient id="b" x1="50" y1="40" x2="120" y2="125" gradientUnits="userSpaceOnUse"><stop stop-color="#43F0D0"/><stop offset="1" stop-color="#2AA8E8"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="5" y="5" width="150" height="150" rx="34" fill="#07172B" stroke="#183A5B" stroke-width="2"/>
+  <g fill="#0D2B4A" stroke="url(#a)" stroke-width="4" stroke-linejoin="round">
+    <path d="M35 48 87 27l39 16-52 23z" opacity=".58"/>
+    <path d="M35 68 87 47l39 16-52 23z" opacity=".78"/>
+    <path d="M35 88 87 67l39 16-52 23z"/>
+  </g>
+  <path d="m70 100 13 13 29-31" fill="none" stroke="url(#b)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <circle cx="118" cy="112" r="20" fill="#0A223A" stroke="#43E7CF" stroke-width="3"/>
+  <path d="m108 112 7 7 14-15" fill="none" stroke="#43E7CF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

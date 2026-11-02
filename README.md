@@ -1,4 +1,12 @@
+<p align="center">
+  <img src="assets/brand-mark.svg" alt="AI Project Setup logo" width="96">
+</p>
+
 # AI Agent–Driven Development Setup Template
+
+<p align="center">
+  <img src="assets/hero-banner.png" alt="AI Project Setup: documentation-first framework for AI coding agents" width="100%">
+</p>
 
 [![Release](https://img.shields.io/github/v/release/abhilash333naidu/AI_Project_Setup)](https://github.com/abhilash333naidu/AI_Project_Setup/releases) [![License: MIT](https://img.shields.io/github/license/abhilash333naidu/AI_Project_Setup)](LICENSE) [![Stars](https://img.shields.io/github/stars/abhilash333naidu/AI_Project_Setup?style=social)](https://github.com/abhilash333naidu/AI_Project_Setup)
 
@@ -28,6 +36,12 @@ AI coding agents work best when they have a clear blueprint. This template separ
 - `.github/ISSUE_TEMPLATE`: standard feedback issue template
 - `.gitignore`: sensible defaults for common stacks
 - `LICENSE`: MIT license
+
+<p align="center">
+  <img src="assets/architecture.svg" alt="Architecture: project definition, agent guidance and governance, and evidenced execution" width="100%">
+</p>
+
+The diagram shows the documented operating model. Enforcement depends on your agent and tooling; the template itself does not block agents.
 
 ## How it works
 
