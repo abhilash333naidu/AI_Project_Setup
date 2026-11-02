@@ -4,6 +4,8 @@ All notable changes to this template are recorded here. Releases are also listed
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-11-02
+
 ### Added
 - Logo (`assets/brand-mark.svg`), hero banner (`assets/hero-banner.png`), and architecture diagram (`assets/architecture.svg`) in the README.
 - Social preview image (`assets/social-preview.png`) for repository sharing.

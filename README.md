@@ -93,7 +93,7 @@ git init
 
 ## Download ZIP
 
-Download `AI_Project_Setup_template.zip` from the [v1.1.0 release](https://github.com/abhilash333naidu/AI_Project_Setup/releases/tag/v1.1.0), or click **Use this template** above.
+Download `AI_Project_Setup_template.zip` from the [v1.2.0 release](https://github.com/abhilash333naidu/AI_Project_Setup/releases/tag/v1.2.0), or click **Use this template** above.
 
 ## Contributing
 
