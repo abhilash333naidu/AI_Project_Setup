@@ -72,7 +72,7 @@ sequenceDiagram
 
 Your `docs/` folder is the source of intent. The agent reads it before writing code, so scope, architecture, and rules stay consistent across sessions.
 
-Every doc starts with `Status: draft`. Agents refuse to write code until you flip each to `ready`.
+Every doc starts with `Status: draft`. Agents are instructed not to write code until you flip each to `ready`. The template gives agents this rule in writing; it does not enforce it with tooling.
 
 ## Quick start
 
