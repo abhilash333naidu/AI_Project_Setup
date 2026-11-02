@@ -1,5 +1,7 @@
 # AI Agent–Driven Development Setup Template
 
+[![Release](https://img.shields.io/github/v/release/abhilash333naidu/AI_Project_Setup)](https://github.com/abhilash333naidu/AI_Project_Setup/releases) [![License: MIT](https://img.shields.io/github/license/abhilash333naidu/AI_Project_Setup)](LICENSE) [![Stars](https://img.shields.io/github/stars/abhilash333naidu/AI_Project_Setup?style=social)](https://github.com/abhilash333naidu/AI_Project_Setup)
+
 A minimal, opinionated starter template for vibe-coding and AI-agent-driven development. Use it to bootstrap new projects with a stable `docs/`-first workflow so your coding agent always has the right context.
 
 ## Who this is for
@@ -36,6 +38,20 @@ flowchart LR
     F --> D
 ```
 
+```mermaid
+sequenceDiagram
+    actor Dev as You
+    participant Agent as Coding agent
+    participant Docs as docs folder
+    participant Code as Source code
+    Dev->>Docs: Define PRD, architecture, rules, design
+    Dev->>Agent: Start a session
+    Agent->>Docs: Read intent and guardrails
+    Agent->>Docs: Pick next item in tasks.md
+    Agent->>Code: Implement the task
+    Agent->>Docs: Update tasks.md and memory.md
+    Agent-->>Dev: Summary and open questions
+```
 Your `docs/` folder is the source of intent. The agent reads it before writing code, so scope, architecture, and rules stay consistent across sessions.
 ## Quick start
 
