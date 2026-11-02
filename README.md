@@ -12,31 +12,46 @@ AI coding agents work best when they have a clear blueprint. This template separ
 
 ## What's inside
 
-- `docs/` — the core docs layer:
-  - `prd.md` — product requirements and scope
-  - `architecture.md` — system architecture and tech stack
-  - `rules.md` — coding rules and agent guardrails
-  - `design.md` — UI/UX design tokens and decisions
-  - `tasks.md` — executable task checklist
-  - `memory.md` — lessons learned and session memory
-- `.cursorrules` — forces your AI agent to read and update `docs/`
-- `.gitignore` — sensible defaults for common stacks
-- `LICENSE` — MIT license
+- `docs/`: the core docs layer
+  - `prd.md`: product requirements and scope
+  - `architecture.md`: system architecture and tech stack
+  - `rules.md`: coding rules and agent guardrails
+  - `design.md`: UI/UX design tokens and decisions
+  - `tasks.md`: executable task checklist
+  - `memory.md`: lessons learned and session memory
+- `.cursorrules`: forces your AI agent to read and update `docs/`
+- `.github/ISSUE_TEMPLATE`: standard feedback issue template
+- `AI_Project_Setup_template.zip`: zip of the template
+- `.gitignore`: sensible defaults for common stacks
+- `LICENSE`: MIT license
 
 ## Quick start
 
-1. Create a new repo from this template using the **Use this template** button.
+1. Click **Use this template** on GitHub, or clone from the terminal:
+
+```bash
+git clone https://github.com/abhilash333naidu/AI_Project_Setup.git my-ai-project
+cd my-ai-project
+rm -rf .git && git init
+```
+
+The `rm -rf .git` step removes the template's git history so your project starts fresh.
+
 2. Edit each file in `docs/` for your project.
 3. Open the project in Cursor, Claude Code, or your preferred agent host.
-4. Start coding — the agent will read `docs/` first and keep `tasks.md` and `memory.md` current.
+4. Start coding. The agent reads `docs/` first and keeps `tasks.md` and `memory.md` current.
 
 ## Download ZIP
 
-If you prefer a local copy, grab the latest ZIP from the [Releases](https://github.com/abhilash333naidu/AI_Project_Setup/releases) section.
+Grab the ZIP from the repo root (`AI_Project_Setup_template.zip`), or from [Releases](https://github.com/abhilash333naidu/AI_Project_Setup/releases) if a release exists.
 
-## Feedback
+## Contributing
 
-This is a public template and it will improve with your input. If you have suggestions for wording, structure, or missing guardrails, open an issue or reach out. I’m especially interested in:
+Open an issue using the feedback template. Useful feedback includes:
 - What was missing when you started using it
-- Which docs file felt unclear
-- What automation would actually help
+- Which docs file was unclear
+- What automation would have helped
+
+## License
+
+MIT. See [LICENSE](LICENSE).
