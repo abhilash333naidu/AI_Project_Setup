@@ -24,6 +24,19 @@ AI coding agents work best when they have a clear blueprint. This template separ
 - `.gitignore`: sensible defaults for common stacks
 - `LICENSE`: MIT license
 
+## How it works
+
+```mermaid
+flowchart LR
+    A[Use this template] --> B[Edit docs/ for your project]
+    B --> C[Open in Cursor / Claude Code]
+    C --> D{Agent reads docs/ first}
+    D --> E[Build from tasks.md]
+    E --> F[Record lessons in memory.md]
+    F --> D
+```
+
+Your `docs/` folder is the source of intent. The agent reads it before writing code, so scope, architecture, and rules stay consistent across sessions.
 ## Quick start
 
 1. Click **Use this template** on GitHub, or clone from the terminal:
